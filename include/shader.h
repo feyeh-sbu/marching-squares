@@ -94,7 +94,4 @@ public:
 	void setFloat(const std::string& name, GLfloat value) const {
 		glUniform1f(glGetUniformLocation(id, name.c_str()), value);
 	}
-	void setDouble(const std::string& name, GLdouble value) const {
-		glUniform1d(glGetUniformLocation(id, name.c_str()), value);
-	}
 };
