@@ -21,6 +21,12 @@ set(GLAD
         src/glad/glad.c
 )
 
+set(ALL_HEADER_FILES
+        include/util/noise.h
+        include/util/shader.h
+        include/marching_squares.h
+)
+
 set(ALL_INCLUDE_DIRS
         ${OPENGL_INCLUDE_DIR}
         include
@@ -28,6 +34,7 @@ set(ALL_INCLUDE_DIRS
 
 set(ALL_SOURCE_FILES
         ${GLAD}
+        ${ALL_HEADER_FILES}
         src/main.cpp
 )
 

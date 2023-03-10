@@ -1,7 +1,2 @@
-# Visual Studio solution file
-*.sln
-
-# Visual Studio project files
-*.vcxproj
-*.vcxproj.filters
-*.vcxproj.user
+# build folder
+build/
